@@ -1,0 +1,118 @@
+@import 'tailwindcss';
+@plugin "daisyui";
+
+:root {
+    --alpine: #00a1e8;
+    --aston-martin: #229971;
+    --ferrari: #e80020;
+    --haas: #b6babd;
+    --kick-sauber: #52e252;
+    --mclaren: #ff8000;
+    --mercedes: #27f4d2;
+    --racing-bulls: #6692ff;
+    --red-bull-racing: #3671c6;
+    --williams: #1868db;
+}
+
+html {
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+section {
+    height: 100vh;
+    width: 100vw;
+    scroll-snap-align: center;
+    overflow: hidden;
+}
+
+.alpine {
+    background: var(--alpine);
+}
+
+.alpineDriverInfo {
+    border-color: var(--alpine);
+}
+
+.aston-martin {
+    background: var(--aston-martin);
+}
+
+.aston-martinDriverInfo {
+    border-color: var(--aston-martin);
+}
+
+.ferrari {
+    background: var(--ferrari);
+}
+
+.ferrariDriverInfo {
+    border-color: var(--ferrari);
+}
+
+.haas {
+    background: var(--haas);
+    color: red;
+}
+
+.haasDriverInfo {
+    border-color: var(--haas);
+}
+
+.kick-sauber {
+    background: var(--kick-sauber);
+    color: #000000;
+}
+
+.kick-sauberDriverInfo {
+    border-color: var(--kick-sauber);
+}
+
+.mclaren {
+    background: var(--mclaren);
+    color: #000000;
+}
+
+.mclarenDriverInfo {
+    border-color: var(--mclaren);
+}
+
+.mercedes {
+    background: var(--mercedes);
+    color: #000000;
+}
+
+.mercedesDriverInfo {
+    border-color: var(--mercedes);
+}
+.racing-bulls {
+    background: var(--racing-bulls);
+}
+
+.racing-bullsDriverInfo {
+    border-color: var(--racing-bulls);
+}
+.red-bull-racing {
+    background: var(--red-bull-racing);
+}
+
+.red-bull-racingDriverInfo {
+    border-color: var(--red-bull-racing);
+}
+.williams {
+    background: var(--williams);
+}
+
+.williamsDriverInfo {
+    border-color: var(--williams);
+}
